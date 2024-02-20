@@ -31,8 +31,9 @@ BEGIN
 END// 
 
 DELIMITER ;
-
+/*
+-- Test cases for the script
 UPDATE courses
 SET course_description = "Chemical engineering"  WHERE course_number = 1120;
 
-SELECT * FROM course_audit;
+SELECT * FROM course_audit; */ 
